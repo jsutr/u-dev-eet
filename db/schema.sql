@@ -1,3 +1,7 @@
+DROP DATABASE IF EXISTS candidates;
+CREATE DATABASE candidates;
+USE candidates;
+
 CREATE TABLE candidates ( 
     id INTEGER AUTO_INCREMENT PRIMARY KEY,
     first_name VARCHAR(30) NOT NULL,
